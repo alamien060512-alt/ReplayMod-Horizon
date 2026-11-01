@@ -1,0 +1,10 @@
+[package]
+name = "horizon-mod-replay"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "Replay, a native mod for Horizon: record a world session (mobs, players, block changes) and play it back with a free camera."
+
+[lib]
+path = "mixins/replay/runtime.rs"
